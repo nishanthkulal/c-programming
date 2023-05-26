@@ -19,5 +19,5 @@ void main()
     func();
     //printf("%d\n",y); // you can acess when its globly acessed
     func();
-    ram();
+    //ram();
 }
