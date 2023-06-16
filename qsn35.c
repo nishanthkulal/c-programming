@@ -2,11 +2,10 @@
 
 void main()
 {
-    register int  a,b;
-    // printf("%d-%d",a,b);
-    //printf("%d-%d"&a&b);
-    a=5+10;
-    b=a+10;
-    printf("%d",b);
-
+    register int  sum=0,i;
+    for(i=0;i<=5;i++)
+    {
+    sum=sum+i;
+    printf("%d",sum);
+    }
 }
